@@ -1,0 +1,48 @@
+format = """
+$directory\
+$git_status\
+$git_branch\
+$c\
+$conda\
+$time
+$username\
+$hostname\
+$cmd_duration\
+$status\
+$character
+"""
+
+[directory]
+truncation_length = 3
+truncate_to_repo = false
+style = "bold #82a4c7"
+
+[git_status]
+format = "([$all_status$ahead_behind]($style) )"
+style = "bold orange"
+
+[time]
+disabled = false
+time_format = "%H:%M"
+format = "[$time]($style)"
+
+[character]
+success_symbol = "[▶](bold #82a4c7)"
+error_symbol = "[▶](bold red)"
+
+[cmd_duration]
+min_time = 2_000
+style = 'bold green'
+
+[username]
+show_always = true
+format = '[$user]($style) '
+
+[status] 
+disabled = false 
+
+[git_branch]
+style = 'bold orange'
+
+[hostname]
+format = '[$ssh_symbol$hostname]($style) '

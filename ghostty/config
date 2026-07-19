@@ -1,0 +1,21 @@
+theme = Nordfox
+background = 151515
+# blur shit 
+background-blur = true
+background-opacity = 0.9
+# window-decoration = false
+# disables top bar -- useful ig but first i neeed aerospace
+#font
+font-family = "JetBrainsMonoNerdFont"
+font-size = "15"
+
+# Increase line spacing by 20%
+
+#ssh shit
+shell-integration-features = sudo
+
+confirm-close-surface = false
+
+window-padding-x = 10
+window-padding-y = 0,8
+window-padding-balance = true
