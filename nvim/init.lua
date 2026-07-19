@@ -113,7 +113,11 @@ vim.api.nvim_create_autocmd('FileType', {
 
 
 require('colorizer').setup()
-require("oil").setup()
+require("oil").setup({
+    view_options = {
+    show_hidden = true
+    }
+})
 require('mini.pairs').setup()
 require("mason").setup()
 

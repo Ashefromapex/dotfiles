@@ -2,8 +2,14 @@
 
 !.gitignore
 
-!.config/aerospace/aerospace.toml
+!aerospace/
+!aerospace/aerospace.toml
 !starship.toml
-!.config/ghostty/config
-!.config/tmux/tmux.conf
-!.config/nvim/init.lua
+!ghostty/
+!ghostty/config
+!tmux/
+!tmux/tmux.conf
+!nvim/
+!nvim/init.lua
+!zsh/
+!zsh/.zshrc
