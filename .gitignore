@@ -1,0 +1,9 @@
+*
+
+!.gitignore
+
+!.config/aerospace/aerospace.toml
+!starship.toml
+!.config/ghostty/config
+!.config/tmux/tmux.conf
+!.config/nvim/init.lua
