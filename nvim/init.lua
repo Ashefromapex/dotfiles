@@ -89,7 +89,7 @@ vim.keymap.set(
 vim.keymap.set("n", "<leader>g", "<cmd>GitGutterBufferToggle <cr>")
 vim.keymap.set("n", "<leader>gg", "<cmd>GitGutterLineHighlightsToggle <cr>")
 
-vim.keymap.set("n", "<leader>fmt", function()
+vim.keymap.set("n", "<leader>ft", function()
     vim.lsp.buf.format({ async = true })
     vim.notify("Formatted", vim.log.levels.INFO, { timeout = 1000 })
 end, { desc = "Format buffer (LSP)" })
