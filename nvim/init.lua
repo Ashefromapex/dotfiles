@@ -50,6 +50,7 @@ vim.pack.add({
 	"https://github.com/nvim-telescope/telescope.nvim",
 	"https://github.com/folke/flash.nvim",
 	"https://github.com/airblade/vim-gitgutter",
+    "https://github.com/blackhat-7/vellum.nvim",
 })
 
 vim.opt.completeopt = { "menuone", "noselect" }
