@@ -94,6 +94,10 @@ vim.keymap.set("n", "<leader>ft", function()
 	vim.notify("Formatted", vim.log.levels.INFO, { timeout = 1000 })
 end, { desc = "Format buffer (LSP)" })
 
+require("vellum").setup({
+    max_width = 100,
+})
+
 require("everforest").setup({
 	transparent_background_level = 1,
 	float_style = "bright",
@@ -122,6 +126,7 @@ require("nvim-treesitter").setup({
 
 require("nvim-treesitter").install({
 	"c",
+    "cpp",
 	"lua",
 	"python",
 	"java",
