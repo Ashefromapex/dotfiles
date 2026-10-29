@@ -103,3 +103,6 @@ setopt hist_find_no_dups
 export OPENAI_API_KEY='123'
 
 eval "$(starship init zsh)"
+export PATH="$(brew --prefix llvm)/bin:$PATH"
+export PATH="$(brew --prefix openjdk)/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
