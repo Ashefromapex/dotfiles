@@ -12,7 +12,7 @@ font-size = "15"
 # Increase line spacing by 20%
 
 #ssh shit
-shell-integration-features = sudo
+shell-integration-features = ssh-env,ssh-terminfo
 
 confirm-close-surface = false
 

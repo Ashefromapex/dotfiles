@@ -191,7 +191,7 @@ alt-cmd-ctrl-up = 'fullscreen'
 # See: https://nikitabobko.github.io/AeroSpace/commands#mode
 alt-cmd-ctrl-0 = 'mode moving'
 alt-t = 'mode typing'
-alt-m = 'mode moving'
+alt-cmd-ctrl-m = 'mode moving'
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
